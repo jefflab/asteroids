@@ -492,9 +492,12 @@ if (typeof Game == "undefined" || !Game)
       {
          var offset = this.animFrame << 6,
              fs = this.frameSize;
-         
+
+         // TODO: remove when images replaced with 64x11520 images for animation
+         offset = 0;
+
          ctx.drawImage(this.animImage, 0, offset, fs, fs, x, y, w, w);
-         
+
          if (cyclic)
          {
             if (x < 0 || y < 0)

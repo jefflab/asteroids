@@ -98,10 +98,10 @@ if (typeof Asteroids == "undefined" || !Asteroids)
       // get the images graphics loading
       var loader = new Game.Preloader();
       loader.addImage(g_playerImg, 'images/player.png');
-      loader.addImage(g_asteroidImg1, 'images/asteroid1.png');
-      loader.addImage(g_asteroidImg2, 'images/asteroid2.png');
-      loader.addImage(g_asteroidImg3, 'images/asteroid3.png');
-      loader.addImage(g_asteroidImg4, 'images/asteroid4.png');
+      loader.addImage(g_asteroidImg1, 'images/G.png');
+      loader.addImage(g_asteroidImg2, 'images/I.png');
+      loader.addImage(g_asteroidImg3, 'images/V.jpg');
+      loader.addImage(g_asteroidImg4, 'images/E.png');
       loader.addImage(g_shieldImg, 'images/shield.png');
       loader.addImage(g_enemyshipImg, 'images/enemyship1.png');
       
